@@ -1,0 +1,188 @@
+@import url(../css/font.css);
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: rgb(255, 183, 255);
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+    position: relative;
+}
+
+body{
+    width: 100%;
+    max-width: 1200px;
+    background-image: url('images/fondo1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header .encabezado{
+    background-image: url('images/banner2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 398px;
+    width: 100%;
+    max-width: 1200px;
+    /* position: relative; */
+    position: relative;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    font-family: 'campana', Arial, Helvetica, sans-serif;
+    color: brown;
+}
+nav{
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+    font-size: 17px;
+}
+
+nav a{
+    color: white;
+    box-shadow: 3px 1px 3px 2px white;
+    text-decoration: none;
+    width: 120px;
+    display: inline-block;
+    text-align: center;
+}
+
+main{
+    min-height: 70vh; 
+    padding: 450px 65px;
+}
+
+footer{
+    width: 100%;
+    max-width: 1200px;
+    background-color: rgba(0, 0, 0,0.8);
+    color: white;
+    font-size: .875rem;
+    text-align: center;
+}
+
+footer a{
+    color: white; 
+}
+
+footer img{
+    width: 40px;
+    padding: 10px;
+}
+
+footer p{
+    text-align: center;
+}
+
+P{
+    text-align: justify;
+    line-height: 23px;
+    padding-bottom: 25px;
+}
+
+img{
+    width: 100%;
+}
+
+/* float left - float right y limpiar*/
+.left{
+    float: left;
+    width: 300px;
+    padding: 0 30px;
+}
+
+.right{
+    float: right;
+    width: 250px;
+    padding: 0 30px;
+}
+
+.clear{
+    clear: both;
+}
+
+.contenedor{
+width: 800px;
+margin: 25px auto;
+}
+
+.contenedor .fondo{
+    background-image: url(images/universidades.png);
+    background-size: 100%;
+    width: 100%;
+    padding-top: 57%;
+    position: relative;
+}
+
+.contenedor .fondo .section{
+    background-color: rgba(119, 52, 226, 0.2);
+    border-radius: 25px;
+    border: 1px solid rgb(248, 244, 244);
+    box-shadow: 2px 3px 3px 0px;
+    position: absolute;
+    width: 30%;
+    height: 16%;
+}
+
+.contenedor .fondo .section.uno{
+    top: 19%;
+    left: 36%;
+}
+
+.contenedor .fondo .section.dos{
+    top: 8%;
+    left: 6%;
+}
+
+.contenedor .fondo .section.tres{
+    top: 74%;
+    left: 62%;
+    width: 33%;
+}
+
+.contenedor .fondo .section.cuatro{
+    top: 47%;
+    left: 56%;
+    width: 33%;
+}
+
+.contenedor .fondo .section.cinco{
+    top: 11%;
+    left: 67%;
+    width: 33%;
+    height: 18%;
+}
+
+.contenedor .fondo .section.seis{
+    top: 40%;
+    left: 10%;
+    width: 29%;
+}
+
+.contenedor .fondo .section.siete{
+    top: 69%;
+    left: 8%;
+    width: 33%;
+    height: 20%;
+}
+
+.contenedor .fondo .ocho img{
+    width: 17%;
+}
+.contenedor .fondo .ocho{
+    right: 14%;
+    bottom: 38%;
+    position: absolute;
+}
